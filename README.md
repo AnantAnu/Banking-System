@@ -1,6 +1,6 @@
 Basic-Banking-System
 
-It is a silpme web application. which is used to transfer money between two users.
+It is a simple web application. which is used to transfer money between two users.
 
 Technology used:-
 
