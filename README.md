@@ -1,15 +1,22 @@
-# Basic-Banking-System
+Basic-Banking-System
 
-A simple dynamic basic website that has the following specs.
+It is a silpme web application. which is used to transfer money between two users.
 
-    1. Start with creating data in the database for up to 10 customers.
+Technology used:-
 
-    2. Database options: Mysql, Mongo, Postgres, etc.
+Front-end--> HTML, CSS, JAVASCRIPT
+Back-end--> PHP
+Database-->Mysql
 
-    3. Customers table will have basic fields such as name, email, current balance, etc.
+    1. It starts with creating 10 dummy users in the database.
+    
+    2. Database has two tables-
+          i.Details -> This contains the basic information about the user like id, name, cid, email, balance etc.
+          ii.History -> This contains the details about transaction along with id, date and time, amount etc.
 
-    4. The transfers table will record all transfers that happened.
+    3. Flow of the Website: Home Page > View all Customers > Select and View one Customer >Transfer Money > Select customer to transfer to > View all Customers .
 
-    5. Flow: Home Page > View all Customers > Select and View one Customer >Transfer Money > Select customer to transfer to > View all Customers .
 
-    6. Only the transfer of money between multiple users.
+    4. Flow: Home Page > Available services > Add Customer >Transfer Money > view customer > History .
+
+    .
